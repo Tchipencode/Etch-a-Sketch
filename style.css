@@ -1,0 +1,19 @@
+.container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: space-between;
+   width: 500px;
+   background-color: aqua;
+   flex-wrap: wrap;
+ 
+}
+.grid-item{
+   background-color: blueviolet;
+   padding: 8px;
+   margin: 5px;
+   text-align: center;
+}
+/*.grid-item:hover{
+   background-color: red;
+}
