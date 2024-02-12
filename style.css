@@ -13,6 +13,12 @@
    padding: 8px;
    margin: 5px;
    text-align: center;
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+.color-item{
+   background-color: green;
 }
 /*.grid-item:hover{
    background-color: red;

@@ -7,9 +7,31 @@
          const gridItem=document.createElement("div");
          gridItem.className="grid-item";
          gridItem.textContent=""
-         gridContainer.appendChild(gridItem);
+         gridContainer.appendChild(gridItem);  
       }
    }
+   const gridCells=document.querySelectorAll(".grid-item");
+ 
+   gridCells.forEach(gridItem =>{
+      gridItem.addEventListener("mousemove",()=>{
+         gridItem.style.backgroundColor="yellow";
+         //event.currentTarget.className("red");
+      });
+   });
+
+
+   /*gridCells.forEach(gridItem =>{
+      gridItem.addEventListener("mouseout",()=>{
+         gridItem.style.backgroundColor="green";
+         //event.currentTarget.className("red");
+      });
+   });*/
+ 
+ 
+
+ 
+
+
 
 
 
