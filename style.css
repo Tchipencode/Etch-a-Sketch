@@ -20,6 +20,11 @@
 .color-item{
    background-color: green;
 }
+.btn{
+   position: relative;
+   align-items: center;
+   background-color: brown;
+}
 /*.grid-item:hover{
    background-color: red;
 }
